@@ -1,0 +1,39 @@
+.employee-profile-dp{ border-radius: 10px; width: 100%; height: 100%; object-fit: cover; }
+.employee-profile .title{ color: var(--black1); font-size: 25px; font-weight: 500; margin-right: 15px; margin-bottom: 15px; }
+.user-details p{ color: var(--black1); font-size: 14px; font-weight: 400; margin-bottom: 0; display: flex; align-items: center; margin-right: 25px; }
+.user-details p a{ color: var(--linkText); text-decoration: none; }
+.user-details p a:hover{ text-decoration: underline; }
+.user-details p svg{ width: 16px; margin-right: 8px; color: #C7CBD1; }
+.userList .avtarName a{ color: var(--linkText); text-decoration: none; }
+.tab-list-wrap{ background-color: #F9FAFF; padding: 0px 25px; }
+.tab-list-wrap .react-tabs__tab--selected{ background-color: transparent; color: var(--linkText) !important; }
+.tab-list-wrap .react-tabs__tab{ padding: 8px 0px; margin-right: 25px; color:var(--subText); font-size: 14px; white-space: nowrap; }
+.line-tab .tab-list-wrap .react-tabs__tab.react-tabs__tab--selected::after{ background-color: var(--linkText); }
+
+.profileStructure{ width: 100%; display: flex; align-items: flex-start; flex-direction: row !important;  }
+.Mui-expanded{ min-height: auto !important; }
+.Mui-expanded.MuiAccordionSummary-contentGutters{ margin: 12px 0 !important; }
+
+.uploadDocList{ padding: 0; margin: 25px 0 0 0; }
+.uploadDocList li{ list-style-type: none; border: 1px solid #BDBDBD; padding: 4px 8px; display: inline-block; margin-right: 8px; margin-bottom: 8px; color: var(--black1); font-size: 12px; font-weight: 300; }
+.uploadDocList li span{ margin-left: 10px; cursor: pointer; }
+.uploadDocList li span:hover{ color: var(--error); }
+
+.profile-dp{ width: 200px; height: 160px; overflow: hidden; position: relative; border-radius: 10px; margin-right: 15px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--divider); }
+.profile-dp .dpuploadBtn{  position: absolute; bottom: -60px; left: 0; right: 0; margin: 0px auto; width: 50px; height: 50px; transition: .3s; }
+.profile-dp .dpuploadBtn input{ position: absolute; top: 0; left: 0; width: 0; height: 0; display: none; }
+.profile-dp .dpuploadBtn label{ cursor: pointer; width: 50px; height: 50px; border-radius: 360px; background-color: var(--white); display: flex; align-items: center; justify-content: center; }
+.profile-dp .dpuploadBtn:hover label{ background-color: var(--chipSuccessBg); }
+.profile-dp .dpuploadBtn:hover label svg :is(path, circle){ fill: var(--success); }
+.profile-dp:hover .dpuploadBtn{ bottom: 20px; }
+
+.dp-info{ font-size: 11px !important; color: var(--info); font-weight: 400 !important; }
+.dp-info svg{ width: 15px; position: relative; top: 8px; }
+
+@media (max-width:1200px) {
+    .profileStructure{  display: block !important; }
+}
+@media (max-width:991px) {
+    .profile-info{ justify-content: flex-start !important; }
+    .profile-info .userList{ width: 150px; }
+}

@@ -1,0 +1,9 @@
+.role-managment-header{ background-color: #F9FAFF; }
+.role-managment-header .MuiFormControlLabel-label{ color: var(--black1); font-weight: 500; font-size: 14px; }
+.role-managment-body .MuiFormControlLabel-label{ color: var(--subText); font-weight: 400; font-size: 14px; }
+
+.closeable-chip .MuiChip-label{ color: var(--subText); font-size: 12px; font-weight: 400; }
+
+
+/* Style for React Multi select */
+.selectTag.w-100{ width: 100%; }

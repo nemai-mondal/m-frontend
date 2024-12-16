@@ -1,0 +1,42 @@
+/* Login Page */
+body.login{ padding: 0; background-color: var(--white); }
+.login-left{ padding: 45px 35px 27px 80px; position: relative; overflow: hidden; height: 100%; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-content: stretch;  }
+.login-left::before{ content: ""; width: 400px; height: 400px; background-image: url('../../assets/images/backshadow.svg'); background-repeat: no-repeat; position: absolute; top: -200px; right: -200px; background-size: contain; }
+.login-left::after{ content: ""; width: 400px; height: 400px; background-image: url('../../assets/images/backshadow.svg'); background-repeat: no-repeat; position: absolute; bottom: -200px; left: -200px; background-size: contain; }
+.form-box{ width: 400px; margin: 0 auto; }
+.form-box .heading-1{ margin-bottom: 12px; }
+.input{ width: 100%; }
+.form-box .link-text{ margin-bottom: 38px; }
+.form-box .forgot-password{ color: var(--linkText); font-size: 14px; text-decoration: none;  }
+.form-box .blue{ width: 100%; height: 48px; margin-top: 28px; }
+.loginFooter{ display: flex; flex-direction: row !important; align-items: end; justify-content: space-between; }
+.loginImg{ width: 100%; height: 100vh; object-fit: cover; }
+.version{ color: var(--black1); font-size: 14px; font-weight: 300; }
+.login-link a{ color: var(--black1); font-size: 14px; font-weight: 400; text-decoration: none; }
+.login-link a:hover{ color: var(--linkText); }
+.copyright{ color: var(--black1); font-size: 14px; font-weight: 300; }
+
+.login-right{overflow: hidden; height:100%;}
+
+.otpTimeing{ color: var(--subText); font-size: 12px; }
+.otpTimeing span{ font-size: 13px; }
+.otpTimeing svg{ font-size: 20px; }
+
+@media (max-width:1199px) {
+    .loginImg{ display: none; }
+    .loginFooter{ margin-top: 50px; }
+    .login-left{ padding: 40px; }
+}
+@media (max-width:991px) {
+    .login-right{ display: none; }
+}
+@media (max-width:767px) {
+    .loginFooter{ display: block !important; }
+    .form-box{ width: 100%; }
+    .form-box .heading-1{ margin-bottom: 2px; margin-top: 8px;}
+    .heading-1{font-size: 29px !important;}
+
+}
+@media (max-width:575px) {
+    .form-box .heading-1{ font-size: 18px; }
+}

@@ -1,0 +1,7 @@
+.whish-content .whishDP{ width: 140px; height: 140px; border-radius: 360px; border: 4px solid var(--blue); margin-top: -106px; }
+.whish-content h4{ color:var(--black1); font-size: 16px; font-weight: 400; margin-top: 15px; margin-bottom: 10px; }
+.whish-content h4 strong{ color:var(--blue); font-size: 18px; font-weight: 600; }
+.whish-content p{ color:var(--subText); font-size: 14px; font-weight: 300; }
+.wishInput{ width: 70%; }
+
+.whish-modal{  max-height: 90vh; }

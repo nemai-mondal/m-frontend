@@ -1,0 +1,29 @@
+/* Apply Leave */
+.employee-panel{  background: rgba(0, 115, 254, 0.05); }
+.employee-label h6{ color: var(--black1); font-size: 12px; font-weight: 400; }
+.employee-label span{ color: var(--subText); font-size: 14px; font-weight: 500; }
+.small-text{ color: var(--subText); font-size: 12px !important; font-weight: 400 !important; }
+.small-text strong{ color: var(--black1); font-size: 14px !important; font-weight: 500 !important; }
+
+
+.leavepanel{ border-radius: 6px; box-shadow: 0px 0px 10px 0px rgba(195, 195, 195, 0.32); }
+.leavepanel h2{ color: var(--black1); font-size: 16px; font-weight: 500; }
+.leavepanel p{ color: var(--subText); font-size: 10px; font-weight: 400; }
+.leave-border{ border-top: 1px solid rgba(189, 189, 189, 0.3); margin-top: 10px; padding-top: 10px; }
+.leave-balance{ text-align: center; border-right: 1px solid rgba(189, 189, 189, 0.3); width: 100%; }
+.leavepanel .leave-balance:last-of-type{ border-right: 0; }
+.leave-balance p{ color: var(--black1); font-size: 12px; }
+.leave-balance span{ font-size: 16px; font-weight: 500; }
+.leavepanel.privilege-leave{ background-color: #F3FFF3; }
+.leavepanel.privilege-leave .leave-balance span{ color: var(--success); }
+.leavepanel.casual-leave .leave-balance span{ color: var(--warning); }
+.leavepanel.casual-leave{ background-color: #FFFAEC; }
+.leavepanel.sick-leave .leave-balance span{ color: var(--blue); }
+.leavepanel.sick-leave{ background-color: #F1F8FF; }
+
+.small-select{ width: 50px; height: 30px; border: 1px solid var(--divider); border-radius: 4px;}
+.small-select:focus{ border: 1px solid var(--blue); outline: 0; }
+
+@media (max-width:1366px) {
+    .leaveManageBox .userList .avtarName{ font-size: 12px; }
+}

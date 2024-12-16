@@ -1,0 +1,4 @@
+.quote .quote-text{ font-family: 'Abhaya Libre', serif !important; font-size: 24px !important; color: var(--black1); margin-bottom: 26px; }
+.quote .quote-pic{ margin: 26px auto 10px auto; }
+.quote .quote-author-name{ color: var(--subText); font-size: 14px; font-style: italic; font-weight: 500; font-family: 'Prompt', sans-serif; margin-top: 15px; }
+.avatar-image{ width: 40px; height: 40px; }

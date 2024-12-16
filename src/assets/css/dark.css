@@ -1,0 +1,15 @@
+body.dark{ background-color: var(--black); }
+.dark .header{ background-color: var(--sidePanelBg); }
+.dark .date{ color: var(--white); }
+.dark .logo{ filter: brightness(0) invert(1); }
+.dark .userName{ color: var(--white); }
+.dark .userDeg{ color: var(--white); }
+.dark *{ color: var(--white) !important; }
+.dark .cardBox{  background-color: var(--sidePanelBg);}
+.dark .addnote{ border: 1px solid var(--white); border-radius: 4px; }
+.dark .addnote:focus{ outline: 0; }
+.dark .Mui-focused .MuiOutlinedInput-notchedOutline{ border: none; }
+.dark .tab ul.react-tabs__tab-list li.react-tabs__tab{ background-color: #383838; }
+.dark .tab ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected{ background-color: var(--black); }
+.dark .table-striped :is(th,td){ background-color: var(--sideNavActive); }
+.dark .react-tabs__tab:focus:after{ display: none; }

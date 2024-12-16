@@ -1,0 +1,20 @@
+@media (max-width:1600px) {
+    .input-dropdown.sm select{ width: 65px; background-position: center right 2px }
+    .input-dropdown.sm input{ width: calc(100% - 65px); }
+}
+@media (max-width:1400px) {
+    /* .MuiTypography-root{ font-size: 14px !important; } */
+}
+@media (max-width:991px) {
+    .side-panel ul li ul.MuiCollapse-hidden{ display: none !important; }
+    .side-panel ul li ul.active{ display: block; }
+}
+@media (max-width:900px) {
+    .isMobileHide{ display: none !important; }
+}
+
+@media (max-width:767px) {
+    .date,.userName,.userDeg{ display: none; }
+    .userDropDownBtn{ margin-left: 0 !important; }
+    .userdropdown{ margin: 0px 8px !important; padding-left: 6px !important; }
+}

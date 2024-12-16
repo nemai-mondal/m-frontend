@@ -1,0 +1,9 @@
+.punchInOut h2{ color: var(--black1); font-size: 20px; font-weight: 600; margin-bottom: 15px; }
+.punchInOut h3{ color: var(--linkText); font-size: 23px; font-weight: 600; }
+.punchInOut .role{ color: var(--subText); font-size: 12px; font-weight: 400; margin-top: 8px; }
+.punchInOut .time{ color: var(--black1); font-size: 33px; font-weight: 600; margin-top: 25px; margin-bottom: 20px; letter-spacing: 5px; }
+.punchInOut .addnote{ margin-top: 20px; margin-bottom: 27px; max-width: 315px; width: 100%; }
+.punchInOut .shift-date{ border-top: 1px solid var(--divider); padding-top: 18px; }
+.punchInOut .shift{ color: var(--black1); font-size: 14px; font-weight: 400; }
+.punchInOut .shift strong{ font-weight: 600; }
+.punchInOut .date{ color: var(--black1); font-size: 14px; font-weight: 400; }

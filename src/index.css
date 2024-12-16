@@ -1,0 +1,6 @@
+.offline{
+    filter: grayscale(100%);
+    overflow:hidden;
+    height: 100vh;
+    pointer-events: none;
+  }
